@@ -1,0 +1,725 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.announcment {
+    width: 100%;
+    height: 45px;
+    background-color: black;
+    color: red;
+    text-align: center;
+    padding: 12px;
+    font-size: 14.2px;
+    align-items: center;
+    
+}
+
+.svg-icon-categories {
+    width: 24px;
+    height: 24px;
+    float: left;
+}
+
+#div-header {
+    height: 112px;
+    margin-left: 152.5px;
+    margin-right: 152.5px;
+}
+
+.padding-left-button {
+    padding-left: 10px;
+
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    float: left;
+    display: flex;
+    padding: 10px;
+    margin: 8px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    border-radius: 30px;
+}
+
+.nav-position {
+    padding-bottom: 34px;
+    padding-top: 34px;
+    height: 62px;
+    width: 533px;
+}
+
+.promotion-text {
+
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    height: 21px;
+    /* width: 141px;
+   
+    margin-left: 20px;
+    padding-left: 150px; */
+}
+
+.nav-position-nav {
+    align-items: center;
+    float: left;
+    margin: 15px;
+}
+
+.column-navbar {
+    width: 162px;
+}
+
+.icons-nav {
+    width: 24px;
+    height: 24px;
+    font-weight: 100;
+}
+
+.bg {
+    background-image: url("https://cdn.mydreamshop.io/source/private/marchideo/pages/attachments/78125cddc9f09b2f4acd0529af94991bc4f96291/1690297230888164bfe38ed8d37127.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.l-button {
+    font-weight: 700;
+    font-size: 34px;
+    height: 141px;
+    width: 623px;
+    background-color: rgba(148, 126, 206, 0.53);
+    color: white;
+
+}
+
+.color-swatches {
+    width: 38px;
+    height: 38px;
+    border: none;
+    border-radius: 10px;
+}
+
+.red {
+    background-color: red;
+}
+
+.black {
+    background-color: black;
+}
+
+.green {
+    background-color: rgb(106, 168, 79);
+}
+
+.blue {
+    background-color: rgb(54, 70, 224);
+}
+
+.product-selection {
+    height: 401px;
+    width: 288px;
+    background-color: white;
+}
+
+.product-selection-bg {
+    background-color: #2ebaa7;
+}
+
+.l-selection {
+    border-radius: 10px;
+}
+
+.gallery-title {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.gallery-col {
+    height: 283px;
+    width: 100%;
+}
+
+.text-section-5-6 {
+    text-align: start;
+}
+
+.btn-tag {
+    width: 100px;
+    height: 33px;
+    border: 2px solid #4c3663;
+    background-color: white;
+    color: #4c3663;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.btn-razgledai {
+    width: 107px;
+    height: 43px;
+    border: 2px solid rgb(111, 25, 203);
+    background-color: rgb(111, 25, 203);
+    color: white;
+    font-size: 14px;
+    border-radius: 100px;
+}
+
+.text-section-5-6 ul li {
+    list-style: none;
+    margin-bottom: 6px;
+}
+
+.text-section-5-6 ul li ion-icon {
+    width: 35px;
+    height: 20px;
+}
+
+.btn-gallery {
+    display: none;
+}
+.btn-gallery:hover {
+    transform: scale(1.1);
+}
+
+.card:hover .btn-gallery {
+    transition: all 0.5s;
+    display: block;
+}
+
+.card {
+    transition: all 0.5s;
+}
+
+.card:hover {
+
+    box-shadow: var(--bs-box-shadow) !important;
+
+}
+
+footer li {
+    list-style: none;
+}
+
+footer * {
+    color: white;
+}
+
+footer ion-icons {
+    font-size: 24px;
+}
+
+footer li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-icons {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.padding-product-section {
+    padding-top: 10px;
+}
+
+.card {
+    width: auto;
+}
+
+.row-fix {
+    margin-left: 0px;
+}
+
+.btn-menu-nav {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #1562d6;
+    --bs-btn-border-color: #0d6efd;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0b5ed7;
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #ffffff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
+
+.dropdown {
+    font-size: 30px;
+}
+
+.solid {
+    border-top: 2px solid black;
+}
+
+
+#divider::before {
+    display: block;
+    height: 1px;
+    background-color: grey;
+    width: 101%;
+    margin: auto;
+    content: " ";
+}
+
+.btn-products {
+    display: none;
+}
+
+.product-gal:hover,
+.btn-products {
+    transition: all 0.5s;
+    display: block;
+}
+
+.card-products {
+    display: inline;
+}
+
+.btn-razgledai-products {
+    top: 41%;
+    left: 35%;
+    position: absolute;
+    border: 2px solid rgb(111, 25, 203);
+    background-color: rgb(111, 25, 203);
+    color: white;
+    font-size: 20px;
+    border-radius: 100px;
+    
+}
+.btn-razgledai-products-2 {
+    top: 41%;
+    left: 50%;
+    font-size: 80px;
+    
+    position: absolute;
+    border: 2px solid rgb(111, 25, 203);
+    background-color: rgb(111, 25, 203);
+    color: white;
+    font-size: 20px;
+    border-radius: 100px;
+}
+.btn-login-socials {
+    border: 2px solid rgb(111, 25, 203);
+    background-color: rgb(111, 25, 203);
+    color: white;
+    font-size: 20px;
+    border-radius: 100px;
+
+}
+.btn-razg-buttons {
+    font-size: 24px;
+    color: white;
+    padding: 2px 6px;
+}
+
+.btn-razgledai:hover, .btn-razgledai-products:hover, .btn-razgledai-products-2:hover {
+    background-color: rgb(81, 18, 149) !important;
+    color: white !important;
+}
+
+a {
+    color: #4c3663;
+}
+
+.img-section4 {
+    max-width: 100%;
+    height: auto;
+}
+
+hr.clear {
+    clear: both;
+    border: 1px solid transparent;
+    height: 0px;
+}
+
+a.nav-link {
+    width: auto;
+}
+
+.Copyright {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    height: 45px;
+}
+
+div.Copyright p {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+
+    margin: 0;
+}
+
+
+.diagonal {
+    position: relative;
+    color: #666;
+    font-weight: 700;
+
+    &:before {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 45%;
+        right: 0;
+        border-top: 1px solid;
+        border-color: inherit;
+        -webkit-transform: skewY(-10deg);
+        -moz-transform: skewY(-10deg);
+        transform: skewY(-10deg);
+    }
+}
+
+.sup-color {
+    color: #666;
+}
+
+.selection-img {
+    width: 200px;
+    height: 134px;
+    object-fit: cover;
+}
+
+sup {
+    font-size: smaller;
+}
+
+.text-color-discount,
+.sup-color-discount {
+    color: #6fa8dc;
+}
+div.categories-dropdown a:hover {
+    background-color: white !important;
+    color: #654884;
+}
+div.categories-dropdown a {
+    font-weight: 700;
+}
+
+/* Сърч бар - Взет код */
+.form{
+
+    position: relative;
+    border: none;
+}
+
+.form .fa-search{
+
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    color: black;
+    border: none;
+    font-size: x-large;
+}
+
+.form span{
+
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border: none;
+
+}
+
+.left-pan{
+    padding-left: 7px;
+}
+
+.left-pan i{
+   
+   padding-left: 10px;
+}
+
+.form-input{
+
+    height: auto;
+    text-indent: 33px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form-input:focus{
+
+    box-shadow: none;
+    border:none;
+}
+footer ul {
+    padding-left: 0px;
+}
+ul.contacts li a, ul.Information li a {
+    color: white;
+    text-decoration: none;
+}
+.cart-icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+}
+.acc-dropdown {
+    box-shadow: inset;
+
+}
+ul.acc-dropdown li a ion-icon {
+    width: 24px;
+    height: 24px;
+}
+.btn-login {
+    width:max-content !important;
+    height: auto !important;
+    margin: 15px;
+    margin-left: 25px;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+ul.acc-dropdown li a.dropdown-item:hover {
+    background-color: white;
+    color: #4c3663;
+}
+/* АНИМАЦИЯ НА DROPDOWN-ите */
+@keyframes slideIn {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(3.5rem);
+      opacity: 1;
+    }
+  
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+  }
+  .slideIn {
+    animation-name: slideIn;
+  }
+  .animate {
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+  }
+div.modal h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+div.modal p {
+    font-size: 15px !important;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+}
+div.modal a {
+    font-weight: 400;
+    padding: 3px;
+    
+}
+div.modal p {
+    margin-bottom: 0px;
+}
+.form-control {
+    margin-bottom: 10px;
+}
+.profile-facebook {
+    color: #3c5a96;
+}
+.profile-google {
+    color: #dc4c3f;
+}
+ion-icon {
+    width: 24px;
+    height: 24px;
+}
+
+
+.modal-fix-cart {
+    width: 1100px;
+    transform: translateX(-30%);
+}
+
+/* Трябваше да направя този фикс заради промяната на ширината на екрана в менюто МОЯТ ПРОФИЛ.  */
+.modal-dialog-centered-fix {
+    align-items: center;
+    min-height: calc(100% - var(--bs-modal-margin) * 2);
+
+}
+
+.modal-MyProfile-fix {
+    width: 120%;
+    transform: translateX(-9.385%);
+}
+/* div.cart-contacts input {
+    width: 245px;
+} */
+/*                     */
+/*                     */
+/* ПРОДУКТОВА СТРАНИЦА */
+/*                     */
+/*                     */
+
+
+div#Cart input[type = text], div#Cart input[type = number] {
+    border-radius: 10px;
+    height: 50px;
+}
+.form-check-cart {
+    border-radius: 100000000000%;
+}
+label p {
+    font-size: 14px;
+}
+.border-cart-buttons {
+    border: 1px solid #cbbeda;
+    border-radius: 10px;
+}
+.form-check-input {
+    width: 20px !important;
+    height: 20px !important;
+}
+div#Payment-form a {
+    padding: 9px 16px;
+    border: 2px solid #cbbeda;
+    border-radius: 10px;
+    font-size: 15px;
+}
+hr.solid {
+    margin: 0px;
+    border: 1px solid #cbbeda;
+  }
+
+.green-button, .active-btn-cart {
+    border: 2px solid #9c3 !important;
+}
+input.AddProduct-Cart::placeholder {
+    font-size: 15px;
+    display: flex;
+    vertical-align: middle;
+    align-self: center;
+}
+input.AddProduct-Cart {
+    height: 50px;
+}
+/* .AddProduct-Cart {
+    border: none;
+} */
+
+.Dostavka-Cart {
+    font-size: 15px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    line-height: 1.5;
+    float: right;
+    color: #4c3663;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.Obshto-Cart {
+    color: black;
+    line-height: 1.5;
+    font-size: 23px;
+    font-weight: 700;
+    padding: 12px;
+    border-top: 1px solid #cbbeda;
+}
+div.free-delivery-alert {
+    color: #6b39a0 !important;
+    border-radius: 10px;
+    border: 1px solid #6b39a0 !important;
+}
+div.free-delivery-alert span ion-icon {
+    color: #6b39a0 !important;
+}
+
+.harakteristiki-products {
+    border-radius: 10px;
+    border: 1px solid #cbbeda;
+}
+.Kod-marka-products {
+    font-size: 12px;
+    
+}
+.color-swatches-product-page {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+}
+
+.Product-Tax-Notice {
+    font-family: 'Montserrat Alternates';
+    font-weight: 400;
+    color: #000;
+    font-size: 12px;
+}
+div.products-btn span {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+div.Otzivi h2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+.comment-add-btn {
+    padding: 8.40px 12px;
+    background-color: #6f19cb;
+    width: 260px;
+}
+textarea:hover {
+    border: 1px solid blue;
+}
+div.Dropdown-review {
+    border-radius: 10px;
+    border: 1px solid #cbbeda;
+}
+#Write-a-comment {
+    width: 95%;
+}
+div.review-stars {
+    color: #4c3663;
+}
+#search-icon {
+    width: 24px;
+    height: 24px;
+    font-weight: 300; 
+}
+
+.pop-up-header {
+    font-size: calc(12px + (6 * 0.3vmin));
+    font-weight: 700;
+}
+
+.border-radius-Delivery {
+    border-radius: 10px;
+}
+div.agreements {
+    color: black;
+}
+div.agreements a {
+    text-decoration: underline;
+}
+div#Login a {
+    text-decoration: underline;
+    color: #000;
+}
+.login-width-fix {
+    width: 90%;
+}
